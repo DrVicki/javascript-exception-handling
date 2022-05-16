@@ -1,6 +1,6 @@
 ## Overview
 
-In this tutorial, you will learn how to use the JavaScript try...catch statement to handle exceptions.
+In this tutorial, you will learn how to handle exceptions.
 
 ## Introduction to JavaScript ```try…catch``` statement
 
