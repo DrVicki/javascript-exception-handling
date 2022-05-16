@@ -31,3 +31,23 @@ try {
   // code to handle error
 }
 ```
+In this syntax:
+
+  - First, place the code which may cause an error in the ```try``` block.
+  - Second, implement the logic to handle the error in the ```catch``` block.
+
+If an error occurs in the ```try``` block, the JavaScript engine immediately executes the code in the ```catch``` block. Also, the JavaScript engine provides you with an error object which contains detailed information about the error.
+
+Basically, the error object has at least two properties:
+
+  1. ```name``` specifies the error name.
+  2. ```message``` explains the error in detail.
+
+If no error occurs in the ```try``` block, the JavaScript engine ignores the ```catch``` block.
+
+> Note that web browsers may add more properties to the error object. For example, Firefox adds ```filename```, ```lineNumber```, and ```stack``` properties to the error object.
+
+It’s a good practice to place only the code which may cause an exception in the ```try``` block.
+
+The following flowchart illustrates how the ```try...catch``` statement works:
+![image](https://user-images.githubusercontent.com/47826697/168500816-845dde72-deb8-4cb7-97b1-c9e5e46e23f2.png)
